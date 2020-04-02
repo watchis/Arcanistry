@@ -1,0 +1,20 @@
+# Excluding all files
+/*
+
+# Keeping gradle files
+!gradle/
+!gradlew
+!gradlew.bat
+!build.gradle
+!build.properties
+!settings.gradle
+
+# Keeping important repo files
+!.gitignore
+!LICENSE
+!README.md
+!VERSION.txt
+#!curse_upload.json
+
+# Aaaaand keep the source code
+!src/
