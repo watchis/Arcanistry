@@ -12,8 +12,10 @@
 # Keeping important repo files
 !.gitignore
 !LICENSE
+!changelog.txt
 !README.md
 !VERSION.txt
+!mcmod.info
 #!curse_upload.json
 
 # Aaaaand keep the source code
