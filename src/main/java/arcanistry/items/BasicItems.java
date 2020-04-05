@@ -8,5 +8,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 public class BasicItems {
 
     public static final Item item = null;
+    public static final Item flowerbatten = null;
+    public static final Item cloth = null;
     public static final Item CREATIVE_TAB_ICON = null;
 }

@@ -17,8 +17,9 @@ public class ModelRegistrationHandler {
 
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
-        // Items
         registerModel(BasicItems.item, 0);
+        registerModel(BasicItems.flowerbatten, 0);
+        registerModel(BasicItems.cloth, 0);
         registerModel(BasicItems.CREATIVE_TAB_ICON, 0);
 
         // Blocks

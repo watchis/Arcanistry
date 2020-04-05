@@ -1,7 +1,6 @@
 package arcanistry.handlers;
 
 import arcanistry.blocks.BasicBlocks;
-import arcanistry.init.ArcanistryCreativeTab;
 import arcanistry.main.Arcanistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -21,6 +20,12 @@ public class RegistrationHandler {
                 new Item().setRegistryName(Arcanistry.MODID, "item")
                         .setCreativeTab(Arcanistry.CREATIVE_TAB)
                         .setUnlocalizedName("arcanistry.item"),
+                new Item().setRegistryName(Arcanistry.MODID, "flowerbatten")
+                        .setCreativeTab(Arcanistry.CREATIVE_TAB)
+                        .setUnlocalizedName("arcanistry.flowerbatten"),
+                new Item().setRegistryName(Arcanistry.MODID, "cloth")
+                        .setCreativeTab(Arcanistry.CREATIVE_TAB)
+                        .setUnlocalizedName("arcanistry.cloth"),
                 new Item().setRegistryName(Arcanistry.MODID, "CREATIVE_TAB_ICON")
                         .setUnlocalizedName("arcanistry.creativetabicon")
         };

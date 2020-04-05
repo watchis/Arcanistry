@@ -1,6 +1,8 @@
 # Items
 # Template: item.arcanistry.item.name=This Is An Item
 item.arcanistry.item.name=SmileyItem
+item.arcanistry.flowerbatten.name=Batten Flower
+item.arcanistry.cloth.name=Cloth
 
 # Blocks
 # Template: tile.arcanistry.block.name=This Is A Block
