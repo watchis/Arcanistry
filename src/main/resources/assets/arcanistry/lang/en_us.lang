@@ -2,7 +2,9 @@
 # Template: item.arcanistry.item.name=This Is An Item
 item.arcanistry.item.name=SmileyItem
 
-
 # Blocks
 # Template: tile.arcanistry.block.name=This Is A Block
 tile.arcanistry.block.name=SmileyBlock
+
+# Creative Tab
+itemGroup.arcanistry=Arcanistry

@@ -1,5 +1,7 @@
 package arcanistry.main;
 
+import arcanistry.init.ArcanistryCreativeTab;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -16,6 +18,7 @@ public class Arcanistry {
     public static final String VERSION = "0.0.0";
     
     private static Logger logger;
+    public static final CreativeTabs CREATIVE_TAB = new ArcanistryCreativeTab();
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)

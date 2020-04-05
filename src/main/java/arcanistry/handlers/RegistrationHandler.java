@@ -1,6 +1,7 @@
 package arcanistry.handlers;
 
 import arcanistry.blocks.BasicBlocks;
+import arcanistry.init.ArcanistryCreativeTab;
 import arcanistry.main.Arcanistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -18,8 +19,10 @@ public class RegistrationHandler {
     public static void registerItems(RegistryEvent.Register<Item> event) {
         final Item[] items = {
                 new Item().setRegistryName(Arcanistry.MODID, "item")
-                        .setCreativeTab(CreativeTabs.MISC)
-                        .setUnlocalizedName("arcanistry.item")
+                        .setCreativeTab(Arcanistry.CREATIVE_TAB)
+                        .setUnlocalizedName("arcanistry.item"),
+                new Item().setRegistryName(Arcanistry.MODID, "CREATIVE_TAB_ICON")
+                        .setUnlocalizedName("arcanistry.creativetabicon")
         };
 
         final Item[] itemBlocks = {
@@ -34,7 +37,7 @@ public class RegistrationHandler {
     public static void registerBlocks(RegistryEvent.Register<Block> event) {
         final Block[] blocks = {
                 new Block(Material.ROCK).setRegistryName(Arcanistry.MODID, "block")
-                    .setCreativeTab(CreativeTabs.MISC)
+                    .setCreativeTab(Arcanistry.CREATIVE_TAB)
                     .setUnlocalizedName("arcanistry.block")
         };
 
